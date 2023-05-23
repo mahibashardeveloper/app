@@ -1,0 +1,40 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.min.css";
+
+$black: #000;
+$grey: rgba(128, 128, 128, 0.7);
+$white: #fff;
+$mix-white-grey: mix($white, $grey);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(224, 255, 255, 0.7);
+
+    .logo{
+        font-size:2.25rem !important;
+        transition: 0.3s ease-in-out;
+
+        @media screen and (max-width: 991px) {
+            font-size: 1.50rem !important;
+        }
+
+    }
+
+    .logo-responsive{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .customer-image{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+}
