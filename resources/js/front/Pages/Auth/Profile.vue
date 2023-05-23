@@ -2,7 +2,10 @@
     <div>
         <div class="navbar navbar-expand bg-white">
             <div class="container-fluid">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav align-items-center">
+                    <a class="text-decoration-none text-dark d-lg-none d-block me-3" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                        <i class="bi bi-justify-left"></i>
+                    </a>
                     <li class="nav-item">
                         <a class="nav-link logo" href="">
                             Redishketch
@@ -71,94 +74,13 @@
             </div>
         </div>
 
-        <div class="container my-4">
-            <div class="row">
-                <div class="col-md-6 mb-3">
-                    <form action="" method="post">
-                        <div class="position-relative">
-                            <input type="search" name="" class="form-control shadow-none ps-5" placeholder="Search Here">
-                            <div class="position-absolute position-absolute top-50 start-0 ps-1 translate-middle-y">
-                                <button type="submit" name="" class="btn btn-link text-decoration-none text-secondary">
-                                    <i class="bi bi-search"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-6 mb-3 d-flex justify-content-md-end">
-                    <a href="" class="btn btn-dark">Check In</a>
-                </div>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Redishketch</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-        </div>
-
-            <div class="container-fluid mb-3 d-lg-none d-block">
-                <a class="btn btn-light shadow rounded-0 w-100" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                    menu
-                </a>
-                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Redishketch</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <div>
-                            <div class="p-3">
-                                <a class="nav-link" href="">
-                                    <i class="bi bi-graph-up"></i>
-                                    Overview
-                                </a>
-                            </div>
-                            <div class="p-3">
-                                <a class="nav-link" href="">
-                                    <i class="bi bi-calendar2-event"></i>
-                                    Invitations
-                                </a>
-                            </div>
-                            <div class="p-3">
-                                <a class="nav-link" href="">
-                                    <i class="bi bi-gear"></i>
-                                    Settings
-                                </a>
-                            </div>
-                            <div class="p-3">
-                                <a class="nav-link" href="">
-                                    <i class="bi bi-printer"></i>
-                                    Departments
-                                </a>
-                            </div>
-                            <div class="p-3">
-                                <a class="nav-link" href="">
-                                    <i class="bi bi-person"></i>
-                                    Hosts
-                                </a>
-                            </div>
-                            <div class="p-3">
-                                <a class="nav-link" href="">
-                                    <i class="bi bi-phone-landscape"></i>
-                                    Kiosk
-                                </a>
-                            </div>
-                            <div class="p-3">
-                                <a class="nav-link" href="">
-                                    <i class="bi bi-credit-card"></i>
-                                    Account
-                                </a>
-                            </div>
-                            <div class="p-3">
-                                <a class="nav-link" href="">
-                                    <i class="bi bi-person-video"></i>
-                                    Inductions
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-2 d-lg-block d-none">
-                    <div class="bg-white h-100 p-3">
+            <div class="offcanvas-body">
+                <div>
                     <div class="p-3">
                         <a class="nav-link" href="">
                             <i class="bi bi-graph-up"></i>
@@ -208,6 +130,82 @@
                         </a>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <form action="" method="post">
+                        <div class="position-relative">
+                            <input type="search" name="" class="form-control shadow-none ps-5" placeholder="Search Here">
+                            <div class="position-absolute position-absolute top-50 start-0 ps-1 translate-middle-y">
+                                <button type="submit" name="" class="btn btn-link text-decoration-none text-secondary">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 mb-3 d-flex justify-content-md-end">
+                    <a href="" class="btn btn-dark">Check In</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 d-lg-block d-none">
+                    <div class="h-100 p-3">
+                        <div class="p-3">
+                            <a class="nav-link" href="">
+                                <i class="bi bi-graph-up"></i>
+                                Overview
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <a class="nav-link" href="">
+                                <i class="bi bi-calendar2-event"></i>
+                                Invitations
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <a class="nav-link" href="">
+                                <i class="bi bi-gear"></i>
+                                Settings
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <a class="nav-link" href="">
+                                <i class="bi bi-printer"></i>
+                                Departments
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <a class="nav-link" href="">
+                                <i class="bi bi-person"></i>
+                                Hosts
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <a class="nav-link" href="">
+                                <i class="bi bi-phone-landscape"></i>
+                                Kiosk
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <a class="nav-link" href="">
+                                <i class="bi bi-credit-card"></i>
+                                Account
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <a class="nav-link" href="">
+                                <i class="bi bi-person-video"></i>
+                                Inductions
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-5 bg-white rounded-3">
                     <div class="px-3">
@@ -217,132 +215,134 @@
                                 <a class="btn bg-danger bg-opacity-25 text-danger px-md-5 border-0" href="">Broadcast</a>
                             </div>
                         </div>
-                        <table class="table table-borderless">
+                        <div class="table-responsive">
+                        <table class="w-100 table table-borderless table-hover">
                             <thead>
-                            <tr class="row">
-                                <th class="col-3"> Name </th>
-                                <th class="col-3"> Type </th>
-                                <th class="col-3"> Visiting </th>
-                                <th class="col-3"> Check in Time </th>
-                            </tr>
+                                <tr>
+                                    <th class="text-capitalize min-130px"> Name </th>
+                                    <th class="text-capitalize min-130px"> Type </th>
+                                    <th class="text-capitalize min-130px"> Visiting </th>
+                                    <th class="text-capitalize min-130px"> Check in Time </th>
+                                </tr>
                             </thead>
                             <tbody>
-                            <tr class="row align-items-center mb-3">
-                                <td class="col-3 d-flex align-items-center">
-                                    <img :src="`${core.filepath}images/cus-1.jpeg`" class="img-fluid customer-image me-2" alt="">
-                                    John Smith
-                                </td>
-                                <td class="col-3">
-                                <span class="badge p-2 px-4 border border-primary bg-primary-subtle text-primary">
-                                    Visitor
-                                </span>
-                                </td>
-                                <td class="col-3">
-                                <span class="text-secondary text-opacity-50">
-                                    Sam Khalif
-                                </span>
-                                </td>
-                                <td class="col-3">
-                                    10:30 AM
-                                </td>
-                            </tr>
-                            <tr class="row align-items-center mb-3">
-                                <td class="col-3 d-flex align-items-center">
-                                    <img :src="`${core.filepath}images/cus-2.jpg`" class="img-fluid customer-image me-2" alt="">
-                                    John Smith
-                                </td>
-                                <td class="col-3">
-                                <span class="badge p-2 px-4 border border-primary bg-primary-subtle text-primary">
-                                    Visitor
-                                </span>
-                                </td>
-                                <td class="col-3">
-                                <span class="text-secondary text-opacity-50">
-                                    Sam Khalif
-                                </span>
-                                </td>
-                                <td class="col-3">
-                                    10:30 AM
-                                </td>
-                            </tr>
-                            <tr class="row align-items-center mb-3">
-                                <td class="col-3 d-flex align-items-center">
-                                    <img :src="`${core.filepath}images/cus-3.png`" class="img-fluid customer-image me-2" alt="">
-                                    John Smith
-                                </td>
-                                <td class="col-3">
-                                <span class="badge p-2 px-4 border border-danger bg-danger-subtle text-danger">
-                                    Constractor
-                                </span>
-                                </td>
-                                <td class="col-3">
-                                <span class="text-secondary text-opacity-50">
-                                    Sam Khalif
-                                </span>
-                                </td>
-                                <td class="col-3">
-                                    10:30 AM
-                                </td>
-                            </tr>
-                            <tr class="row align-items-center mb-3">
-                                <td class="col-3 d-flex align-items-center">
-                                    <img :src="`${core.filepath}images/cus-4.jpg`" class="img-fluid customer-image me-2" alt="">
-                                    John Smith
-                                </td>
-                                <td class="col-3">
-                                <span class="badge p-2 px-4 border border-primary bg-primary-subtle text-primary">
-                                    Visitor
-                                </span>
-                                </td>
-                                <td class="col-3">
-                                <span class="text-secondary text-opacity-50">
-                                    Sam Khalif
-                                </span>
-                                </td>
-                                <td class="col-3">
-                                    10:30 AM
-                                </td>
-                            </tr>
-                            <tr class="row align-items-center mb-3">
-                                <td class="col-3 d-flex align-items-center">
-                                    <img :src="`${core.filepath}images/cus-5.png`" class="img-fluid customer-image me-2" alt="">
-                                    John Smith
-                                </td>
-                                <td class="col-3">
-                                <span class="badge p-2 px-4 border border-primary bg-primary-subtle text-primary">
-                                    Visitor
-                                </span>
-                                </td>
-                                <td class="col-3">
-                                <span class="text-secondary text-opacity-50">
-                                    Sam Khalif
-                                </span>
-                                </td>
-                                <td class="col-3">
-                                    10:30 AM
-                                </td>
-                            </tr>
-                            <tr class="row align-items-center mb-3">
-                                <td class="col-3 d-flex align-items-center">
-                                    <img :src="`${core.filepath}images/cus-6.jpg`" class="img-fluid customer-image me-2" alt="">
-                                    John Smith
-                                </td>
-                                <td class="col-3">
-                                <span class="badge p-2 px-4 border border-primary bg-primary-subtle text-primary">
-                                    Visitor
-                                </span>
-                                </td>
-                                <td class="col-3">
-                                <span class="text-secondary text-opacity-50">
-                                    Sam Khalif
-                                </span>
-                                </td>
-                                <td class="col-3">
-                                    10:30 AM
-                                </td>
-                            </tr>
+                                <tr>
+                                    <td class="text-capitalize min-130px">
+                                        <img :src="`${core.filepath}images/cus-1.jpeg`" class="img-fluid customer-image me-2" alt="">
+                                        John Smith
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        <span class="badge p-2 px-4 border border-primary bg-primary-subtle text-primary">
+                                            Visitor
+                                        </span>
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        <span class="text-secondary text-opacity-50">
+                                            Sam Khalif
+                                        </span>
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        10:30 AM
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-capitalize min-130px">
+                                        <img :src="`${core.filepath}images/cus-2.jpg`" class="img-fluid customer-image me-2" alt="">
+                                        John Smith
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        <span class="badge p-2 px-4 border border-primary bg-primary-subtle text-primary">
+                                            Visitor
+                                        </span>
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        <span class="text-secondary text-opacity-50">
+                                            Sam Khalif
+                                        </span>
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        10:30 AM
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-capitalize min-130px">
+                                        <img :src="`${core.filepath}images/cus-3.png`" class="img-fluid customer-image me-2" alt="">
+                                        John Smith
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        <span class="badge p-2 px-4 border border-danger bg-danger-subtle text-danger">
+                                            Constractor
+                                        </span>
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        <span class="text-secondary text-opacity-50">
+                                            Sam Khalif
+                                        </span>
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        10:30 AM
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-capitalize min-130px">
+                                        <img :src="`${core.filepath}images/cus-4.jpg`" class="img-fluid customer-image me-2" alt="">
+                                        John Smith
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        <span class="badge p-2 px-4 border border-primary bg-primary-subtle text-primary">
+                                            Visitor
+                                        </span>
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        <span class="text-secondary text-opacity-50">
+                                            Sam Khalif
+                                        </span>
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        10:30 AM
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-capitalize min-130px">
+                                        <img :src="`${core.filepath}images/cus-5.png`" class="img-fluid customer-image me-2" alt="">
+                                        John Smith
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        <span class="badge p-2 px-4 border border-primary bg-primary-subtle text-primary">
+                                            Visitor
+                                        </span>
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        <span class="text-secondary text-opacity-50">
+                                            Sam Khalif
+                                        </span>
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        10:30 AM
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-capitalize min-130px">
+                                        <img :src="`${core.filepath}images/cus-6.jpg`" class="img-fluid customer-image me-2" alt="">
+                                        John Smith
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        <span class="badge p-2 px-4 border border-primary bg-primary-subtle text-primary">
+                                            Visitor
+                                        </span>
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        <span class="text-secondary text-opacity-50">
+                                            Sam Khalif
+                                        </span>
+                                    </td>
+                                    <td class="text-capitalize min-130px">
+                                        10:30 AM
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-5">

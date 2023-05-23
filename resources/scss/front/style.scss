@@ -38,3 +38,13 @@ body{
     }
 
 }
+
+table{
+    border-collapse: separate;
+    border-spacing: 0 15px;
+
+    .min-130px{
+        min-width: 150px;
+    }
+
+}
