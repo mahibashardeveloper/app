@@ -15,14 +15,14 @@
                         </div>
                         <form action="" method="post">
                             <div class="mb-3">
-                                <input id="email_address" type="text" name="" class="form-control" placeholder="Email Address" required>
+                                <input id="email_address" type="text" class="form-control" placeholder="Email Address" required>
                             </div>
                             <div class="mb-3">
-                                <input id="password" type="password" name="" class="form-control" placeholder="password" required>
+                                <input id="password" type="password" class="form-control" placeholder="password" required>
                             </div>
                             <div class="mb-3">
                                 <label for="checkbox" class="form-check-label text-secondary">
-                                    <input id="checkbox" type="checkbox" name="" class="form-check-input"> Remember Me
+                                    <input id="checkbox" type="checkbox" class="form-check-input"> Remember Me
                                 </label>
                             </div>
                             <div class="mb-3">

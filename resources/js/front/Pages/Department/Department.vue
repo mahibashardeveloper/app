@@ -16,7 +16,7 @@
                     </form>
                 </div>
                 <div class="col-md-6 mb-3 d-flex justify-content-md-end">
-                    <a href="" class="btn btn-dark"> + Add</a>
+                    <a href="javascript:void(0)" class="btn btn-dark"> + Add</a>
                 </div>
             </div>
 
@@ -37,10 +37,10 @@
                     <td class="text-capitalize min-130px">Accounting</td>
                     <td class="text-capitalize min-130px">
                         <div class="d-flex justify-content-end">
-                            <a class="text-decoration-none text-secondary" href="">
+                            <a class="text-decoration-none text-secondary" href="javascript:void(0)">
                                 <i class="bi bi-eye-fill"></i>
                             </a>
-                            <a class="text-decoration-none text-secondary ms-3" href="">
+                            <a class="text-decoration-none text-secondary ms-3" href="javascript:void(0)">
                                 <i class="bi bi-three-dots-vertical"></i>
                             </a>
                         </div>
@@ -51,10 +51,10 @@
                     <td class="text-capitalize min-130px">Finance</td>
                     <td class="text-capitalize min-130px">
                         <div class="d-flex justify-content-end">
-                            <a class="text-decoration-none text-secondary" href="">
+                            <a class="text-decoration-none text-secondary" href="javascript:void(0)">
                                 <i class="bi bi-eye-fill"></i>
                             </a>
-                            <a class="text-decoration-none text-secondary ms-3" href="">
+                            <a class="text-decoration-none text-secondary ms-3" href="javascript:void(0)">
                                 <i class="bi bi-three-dots-vertical"></i>
                             </a>
                         </div>
@@ -65,10 +65,10 @@
                     <td class="text-capitalize min-130px">Marketing</td>
                     <td class="text-capitalize min-130px">
                         <div class="d-flex justify-content-end">
-                            <a class="text-decoration-none text-secondary" href="">
+                            <a class="text-decoration-none text-secondary" href="javascript:void(0)">
                                 <i class="bi bi-eye-fill"></i>
                             </a>
-                            <a class="text-decoration-none text-secondary ms-3" href="">
+                            <a class="text-decoration-none text-secondary ms-3" href="javascript:void(0)">
                                 <i class="bi bi-three-dots-vertical"></i>
                             </a>
                         </div>

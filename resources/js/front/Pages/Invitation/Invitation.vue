@@ -16,7 +16,7 @@
                 </form>
             </div>
             <div class="col-md-6 mb-3 d-flex justify-content-md-end">
-                <a href="" class="btn btn-dark"> + Invite</a>
+                <a href="javascript:void(0)" class="btn btn-dark"> + Invite</a>
             </div>
         </div>
 

@@ -17,7 +17,8 @@
                         <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <div class="d-flex align-items-center">
                                 <img :src="`${core.filepath}images/customer.jpg`" class="img-fluid logo-responsive" alt="">
-                                <div class="ms-3">
+                                <span class="ms-3 d-lg-none d-block dropdown-toggle"></span>
+                                <div class="ms-3 d-lg-block d-none">
                                     <div class="fw-bold">Mahi Bashar Akash</div>
                                     <div class="text-secondary">Admin</div>
                                 </div>
@@ -94,7 +95,7 @@
                         </router-link>
                     </div>
                     <div class="p-3">
-                        <router-link :to="{name:'Settings'}" class="nav-link" href="">
+                        <router-link :to="{name:'Settings'}" class="nav-link">
                             <i class="bi bi-gear"></i>
                             Settings
                         </router-link>
@@ -118,13 +119,13 @@
                         </a>
                     </div>
                     <div class="p-3">
-                        <a class="nav-link" href="">
+                        <a class="nav-link" href="javascript:void(0)">
                             <i class="bi bi-credit-card"></i>
                             Account
                         </a>
                     </div>
                     <div class="p-3">
-                        <a class="nav-link" href="">
+                        <a class="nav-link" href="javascript:void(0)">
                             <i class="bi bi-person-video"></i>
                             Inductions
                         </a>
@@ -150,7 +151,7 @@
                             </router-link>
                         </div>
                         <div class="p-3">
-                            <router-link :to="{name:'Settings'}" class="nav-link" href="">
+                            <router-link :to="{name:'Settings'}" class="nav-link">
                                 <i class="bi bi-gear"></i>
                                 Settings
                             </router-link>
@@ -168,19 +169,19 @@
                             </router-link>
                         </div>
                         <div class="p-3">
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="javascript:void(0)">
                                 <i class="bi bi-phone-landscape"></i>
                                 Kiosk
                             </a>
                         </div>
                         <div class="p-3">
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="javascript:void(0)">
                                 <i class="bi bi-credit-card"></i>
                                 Account
                             </a>
                         </div>
                         <div class="p-3">
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="javascript:void(0)">
                                 <i class="bi bi-person-video"></i>
                                 Inductions
                             </a>

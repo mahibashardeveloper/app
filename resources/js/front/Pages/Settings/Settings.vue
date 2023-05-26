@@ -19,14 +19,14 @@
         <div class="bg-white rounded border-3 border border-primary p-4">
             <div class="row pe-md-4">
                 <div class="col-md-3 p-3">
-                    <a class="nav-link p-2 bg-info bg-opacity-25" href="">Site Information</a>
-                    <a class="nav-link p-2" href="">Visitor Types</a>
-                    <a class="nav-link p-2" href="">Branding</a>
-                    <a class="nav-link p-2" href="">Auto-Expiry</a>
-                    <a class="nav-link p-2" href="">Check in Requirements</a>
-                    <a class="nav-link p-2" href="">Notifications</a>
-                    <a class="nav-link p-2" href="">Pricing</a>
-                    <a class="nav-link p-2" href="">Information</a>
+                    <a class="nav-link p-2 bg-info bg-opacity-25" href="javascript:void(0)">Site Information</a>
+                    <a class="nav-link p-2" href="javascript:void(0)">Visitor Types</a>
+                    <a class="nav-link p-2" href="javascript:void(0)">Branding</a>
+                    <a class="nav-link p-2" href="javascript:void(0)">Auto-Expiry</a>
+                    <a class="nav-link p-2" href="javascript:void(0)">Check in Requirements</a>
+                    <a class="nav-link p-2" href="javascript:void(0)">Notifications</a>
+                    <a class="nav-link p-2" href="javascript:void(0)">Pricing</a>
+                    <a class="nav-link p-2" href="javascript:void(0)">Information</a>
                 </div>
                 <div class="col-md-6 p-3">
                     <div class="h4">Location</div>

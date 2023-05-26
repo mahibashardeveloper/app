@@ -5,9 +5,9 @@
                 <div class="col-md-6 mb-3">
                     <form action="" method="post">
                         <div class="position-relative">
-                            <input type="search" name="" class="form-control shadow-none ps-5" placeholder="Search Here">
+                            <input type="search" class="form-control shadow-none ps-5" placeholder="Search Here">
                             <div class="position-absolute position-absolute top-50 start-0 ps-1 translate-middle-y">
-                                <button type="submit" name="" class="btn btn-link text-decoration-none text-secondary">
+                                <button type="submit" class="btn btn-link text-decoration-none text-secondary">
                                     <i class="bi bi-search"></i>
                                 </button>
                             </div>
@@ -15,7 +15,7 @@
                     </form>
                 </div>
                 <div class="col-md-6 mb-3 d-flex justify-content-md-end">
-                    <a href="" class="btn btn-dark">Check In</a>
+                    <a href="javascript:void(0)" class="btn btn-dark">Check In</a>
                 </div>
             </div>
 
@@ -29,7 +29,7 @@
                             </div>
                         </div>
                         <div class="col-4">
-                            <a class="btn bg-danger bg-opacity-25 text-danger px-md-5 border-0" href="">Broadcast</a>
+                            <a class="btn bg-danger bg-opacity-25 text-danger px-md-5 border-0" href="javascript:void(0)">Broadcast</a>
                         </div>
                     </div>
                     <div class="table-responsive">
@@ -244,7 +244,7 @@
                                 <img :src="`${core.filepath}images/cus-5.png`" class="img-fluid customer-image border-3 border-white border" alt="">
                             </div>
                             <div class="pt-4">
-                                <a href="" class="text-decoration-none text-secondary text-opacity-50">View All</a>
+                                <a href="javascript:void(0)" class="text-decoration-none text-secondary text-opacity-50">View All</a>
                             </div>
                         </div>
                     </div>
@@ -261,7 +261,7 @@
                                 <img :src="`${core.filepath}images/cus-5.png`" class="img-fluid customer-image border-3 border-white border" alt="">
                             </div>
                             <div class="pt-4">
-                                <a href="" class="text-decoration-none text-secondary text-opacity-50">View All</a>
+                                <a href="javascript:void(0)" class="text-decoration-none text-secondary text-opacity-50">View All</a>
                             </div>
                         </div>
                     </div>
