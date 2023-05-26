@@ -7,7 +7,7 @@
                         <i class="bi bi-justify-left"></i>
                     </a>
                     <li class="nav-item">
-                        <a class="nav-link logo" href="">
+                        <a class="nav-link logo" href="javascript:void(0)">
                             Redishketch
                         </a>
                     </li>
@@ -112,7 +112,7 @@
                         </router-link>
                     </div>
                     <div class="p-3">
-                        <a class="nav-link" href="">
+                        <a class="nav-link" href="javascript:void(0)">
                             <i class="bi bi-phone-landscape"></i>
                             Kiosk
                         </a>
@@ -133,29 +133,9 @@
             </div>
         </div>
 
-        <div class="container my-4">
-            <div class="row">
-                <div class="col-md-6 mb-3">
-                    <form action="" method="post">
-                        <div class="position-relative">
-                            <input type="search" name="" class="form-control shadow-none ps-5" placeholder="Search Here">
-                            <div class="position-absolute position-absolute top-50 start-0 ps-1 translate-middle-y">
-                                <button type="submit" name="" class="btn btn-link text-decoration-none text-secondary">
-                                    <i class="bi bi-search"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-6 mb-3 d-flex justify-content-md-end">
-                    <a href="" class="btn btn-dark">Check In</a>
-                </div>
-            </div>
-        </div>
-
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-2 d-lg-block d-none">
+                <div class="col-md-2 d-lg-block d-none py-5">
                     <div class="h-100 p-3">
                         <div class="p-3">
                             <router-link :to="{name:'Overview'}" class="nav-link">
