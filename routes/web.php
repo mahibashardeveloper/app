@@ -15,3 +15,5 @@ use App\Http\Controllers\FrontController;
 */
 
 Route::get('/front/auth/{any}', [FrontController::class, 'index'])->where('any', '.*')->name('lvs.auth');
+Route::get('/front/', [FrontController::class, 'index'])->where('any', '.*')->name('lvs.auth');
+Route::get('/front/{any}', [FrontController::class, 'index'])->where('any', '.*')->name('lvs.auth');
